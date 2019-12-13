@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:elevation="4dp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Distância: 20 km" />
+
+        <TextView
+                android:id="@+id/tv_price"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Preço: R$2,00" />
+
+        <TextView
+                android:id="@+id/tv_autonomy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Autonomia: 30 l/km" />
+
+        <TextView
+                android:id="@+id/tv_result"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="R$ 5,00" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
